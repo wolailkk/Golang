@@ -138,3 +138,10 @@ func printSplit(count int) {
 	fmt.Println(strings.Repeat("#", count))
 }
 ```
+### 合理的使用range配合for可以有效循环map数组
+```
+    for i,v := range tmpArr {
+   	fmt.Println(i)
+   	fmt.Println(v)
+    }
+```           
